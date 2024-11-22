@@ -3,4 +3,6 @@ on : Push
 Jobs: 
   my_first_job
   runs-on : ubuntu_latest
-  run: echo "hello word"
+  steps:
+   -name : first step
+    run: echo "hello word"
