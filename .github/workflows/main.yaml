@@ -1,0 +1,7 @@
+name: first_project
+on: push 
+Jobs: my first_job
+  runs-on: ubuntu-latest
+  steps: 
+    -name: first_step
+     run : echo "hello word"
